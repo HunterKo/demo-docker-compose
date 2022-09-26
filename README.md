@@ -10,7 +10,7 @@ $ docker images
 $ docker-compose up -d
 
 ## 確認有無執行成功
-$ curl http://localhost:8080/skill/1
+$ curl http://localhost:8080/demo/1
 
 ## 停用、刪除容器和網路，但保留volume和image
 $ docker-compose down
@@ -33,7 +33,7 @@ $ docker-compose up -d
 $ docker-compose restart
 
 ## 確認有無執行成功
-$ curl http://localhost:8080/skill/1
+$ curl http://localhost:8080/demo/1
 
 ## 停用容器
 $ docker-compose stop
