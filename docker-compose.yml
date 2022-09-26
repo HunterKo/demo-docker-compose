@@ -27,8 +27,6 @@ services:
     container_name: springio-api
     networks:
       - demo-bridge
-    volumes:
-      - /var/lib/mysql
     ports:
       - 8080:8080
     restart: always
