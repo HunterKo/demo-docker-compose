@@ -29,9 +29,6 @@ $ docker images
 ## 重啟容器
 $ docker-compose up -d
 
-## 去修改YAML檔的port設定 重啟不會生效
-$ docker-compose restart
-
 ## 確認有無執行成功
 $ curl http://localhost:8080/skill/1
 
