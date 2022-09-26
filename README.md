@@ -19,6 +19,7 @@ $ docker-compose down
 
 ## 看volume image是否仍存在
 $ docker volume ls 
+
 $ docker images
 
 ## 停用、刪除容器和網路、volume，但保留image
@@ -26,6 +27,7 @@ $ docker-compose -f /demo-docker-compose/docker-compose.yml down -v
 
 ## 看volume image是否仍存在
 $ docker volume ls 
+
 $ docker images
 
 ## 重啟容器
