@@ -13,5 +13,6 @@ CREATE TABLE `skill` (
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 INSERT INTO skill (name) VALUES ('java');
+INSERT INTO skill (name) VALUES ('C++');
 
 GRANT ALL PRIVILEGES ON demo.* TO 'admin'@'%';
