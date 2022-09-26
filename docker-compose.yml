@@ -14,7 +14,7 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: skill
+      MYSQL_DATABASE: demo
       MYSQL_USER: admin
       MYSQL_PASSWORD: admin
   springio-api: 
