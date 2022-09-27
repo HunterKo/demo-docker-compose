@@ -14,3 +14,5 @@ network bridge >>>  user-defined bridge 自動做好 Automatic Service Discovery
 service discovery in docker/k8s >>>  要讀
 
 K8s 介紹  https://hackmd.io/@joshhu/Hkp2R_WvY
+
+docker build的時候，注意那個點，是構建上下文位置為當前目錄的意思。另外匯出到本地只能構建一個映象，本地不支援同時匯出manifest lists。
