@@ -1,0 +1,13 @@
+HackMD ： https://hackmd.io/@heJMYVg8TY23jL5fFvxESw/HkCrCbxZo
+
+Maven >>>  dependency library managemen
+
+Dependency scope ： compile 、 provided 、 runtime 、test 、 system 、 import
+
+ENTRYPOINT 和 COPY的差異 ： ENTRYPOINT一定會被執行、且可以接收參數
+
+COPY 和 ADD 的差異 ： COPY只是複製，沒有解壓縮；ADD的話則可以自動解壓縮，且有自動下載機制
+
+docker 的 restart policy ： no 、 on-failure:3 、 always 、  unless-stopped
+
+network bridge >>>  user-defined bridge 自動做好 Automatic Service Discovery, Containers 之間可透過 ip 或 ContainerName 相互通訊 (Default Bridge 則只能使用 ip)
