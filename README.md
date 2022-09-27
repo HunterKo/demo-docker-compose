@@ -1,8 +1,6 @@
 
 # use docker-compose
 ## 建立、重新建立容器用的映像檔
-$ docker network create -d bridge demo-bridge
-
 $ docker-compose build
 
 ## 確認IMAGE內容
