@@ -19,5 +19,5 @@ WORKDIR /opt/app
 # either using the local image name, a tag available locally or on a Docker registry, or a tag ID.
 COPY --from=build-env /opt/build/target/*.jar /opt/app/app.jar
 
-# 啟動容器時傳遞參數 反編譯單個class檔案 確認jar檔可否正常運行
+# 啟動容器時執行的Shell命令，同CMD類似，只是由ENTRYPOINT啟動的程式不會被docker run命令列指定的引數所覆蓋，而且，這些命令列引數會被當作引數傳遞給ENTRYPOINT指定指定的程式
 ENTRYPOINT ["java","-jar","app.jar"]
