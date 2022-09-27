@@ -36,6 +36,7 @@ $ curl http://localhost:8080/skill/1
 
 ## 停用容器
 $ docker-compose stop
+
 $ docker-compose -f /demo-docker-compose/docker-compose.yml stop
 
 
