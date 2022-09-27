@@ -1,6 +1,6 @@
 HackMD ： https://hackmd.io/@heJMYVg8TY23jL5fFvxESw/HkCrCbxZo
 
-Maven >>>  dependency library managemen
+Maven >>>  dependency library management
 
 Dependency scope ： compile 、 provided 、 runtime 、test 、 system 、 import
 
@@ -11,3 +11,6 @@ COPY 和 ADD 的差異 ： COPY只是複製，沒有解壓縮；ADD的話則可�
 docker 的 restart policy ： no 、 on-failure:3 、 always 、  unless-stopped
 
 network bridge >>>  user-defined bridge 自動做好 Automatic Service Discovery, Containers 之間可透過 ip 或 ContainerName 相互通訊 (Default Bridge 則只能使用 ip)
+service discovery in docker/k8s >>>  要讀
+
+K8s 介紹  https://hackmd.io/@joshhu/Hkp2R_WvY
