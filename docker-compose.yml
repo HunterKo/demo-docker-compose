@@ -32,5 +32,6 @@ services:
     restart: always
 networks:
   demo-bridge:
+    driver: bridge
 volumes:
   demo-volume:
